@@ -1,3 +1,7 @@
+<script>
+    import search from '../../../src/lib/assets/Vector.png'
+</script>
+
 <nav class="bg-gradient-to-r from-[rgba(16,16,16,0)] to-[rgba(16,16,16,1)] flex justify-around py-[5px]">
     <div class="flex max-w-screen-xl ">
         <div class="logo pr-[236px] space-y-[-16px]">
@@ -11,7 +15,7 @@
             <li class="py-[10px] px-[18px]">Portfolio</li>
             <li class="py-[10px] px-[18px]">Pages</li>
             <li class="py-[10px] px-[18px]">Contact</li>
-            <li class="py-[5px] px-[30px]"><img src="src/assets/Vector.png" alt="search picto"></li>
+            <li class="py-[5px] px-[30px]"><img src="{search}" alt="search picto"></li>
         </ul>
     </div>
 </nav>

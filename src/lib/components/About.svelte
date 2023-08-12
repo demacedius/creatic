@@ -1,9 +1,10 @@
 <script>
 	import AbousUs from "./AbousUs.svelte";
+    import Robot from  "../../../src/lib/assets/robot.png"
     
 </script>
 <div class="w-full h-screen bg-gradient-to-r from-blue67/[10%] from-30% to-blue0 ">
-    <img src="src/assets/robot.png" alt="robot take a tablet and say hello">
+    <img src={Robot} alt="robot take a tablet and say hello">
     <AbousUs />
 </div>
 
