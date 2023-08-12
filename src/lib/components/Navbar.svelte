@@ -1,4 +1,4 @@
-<nav class="bg-gradient-to-r from-[rgba(16,16,16,0)] to-[rgba(16,16,16,1)] flex justify-around py-[20px]">
+<nav class="bg-gradient-to-r from-[rgba(16,16,16,0)] to-[rgba(16,16,16,1)] flex justify-around py-[5px]">
     <div class="flex max-w-screen-xl ">
         <div class="logo pr-[236px] space-y-[-16px]">
             <p class="font-semibold text-blue text-xl text-center ">CREATIC</p>

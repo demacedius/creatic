@@ -1,23 +1,25 @@
 <script>
 	import Navbar from "./Navbar.svelte";
+	import Welcome from "./Welcome.svelte";
+    export let imgSrc = "../src/assets/beautiful-woman-with-big-jewel.png";
 
 </script>
-<Navbar/>
-<section>
-    <div class="w-full h-full bg-gradient-to-r from-blue0 from-750% to-blue67/[15%]">
-        <img src="../src/assets/beautiful-woman-with-big-jewel.png" alt="beautiful-woman-with-big-jewel" class=" mix-blend-screen">
+<section class="flex">
+    <Welcome/>
+    <div class="w-full h-[75vh] bg-gradient-to-r from-blue0 from-50% to-blue67/[15%]">
+        <img src="{imgSrc}" alt="beautiful-woman-with-big-jewel" class=" mix-blend-screen ">
     </div>
 
-    <div class="CTA">
-
-    </div>
 </section>
 
 <style>
     img{
         object-fit: cover;
-        position: relative;
+        position: absolute;
         overflow: hidden;
-        right: -35%;
+        right: 10%;
+        bottom: 9rem;
+        height: 60%;
     }
+    
 </style>
