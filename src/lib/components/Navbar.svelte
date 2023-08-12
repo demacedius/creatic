@@ -11,7 +11,7 @@
             <li class="py-[10px] px-[18px]">Portfolio</li>
             <li class="py-[10px] px-[18px]">Pages</li>
             <li class="py-[10px] px-[18px]">Contact</li>
-            <li class="py-[5px] px-[30px]"><img src="../src/assets/Vector.png" alt="search picto"></li>
+            <li class="py-[5px] px-[30px]"><img src="src/assets/Vector.png" alt="search picto"></li>
         </ul>
     </div>
 </nav>

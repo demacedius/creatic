@@ -1,7 +1,7 @@
 <script>
 	import Navbar from "./Navbar.svelte";
 	import Welcome from "./Welcome.svelte";
-    export let imgSrc = "../src/assets/beautiful-woman-with-big-jewel.png";
+    export let imgSrc = "src/assets/beautiful-woman-with-big-jewel.png";
 
 </script>
 <section class="flex">
